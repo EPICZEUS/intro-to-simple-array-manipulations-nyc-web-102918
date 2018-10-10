@@ -39,4 +39,4 @@ def using_flatten(arr)
 end
 
 def using_delete(arr, val)
-  val = arr.
+  val = arr.index(val) if val.is_a?(String)
