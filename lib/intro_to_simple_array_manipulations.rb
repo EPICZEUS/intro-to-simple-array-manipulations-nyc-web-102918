@@ -18,4 +18,7 @@ def using_shift(arr)
   arr.shift
 end
 
-def 
+def shift_with_args(arr, num)
+  arr.shift(num)
+end
+
